@@ -4285,6 +4285,10 @@ tilestache:
   debian: [tilestache]
   fedora: [python-tilestache]
   ubuntu: [tilestache]
+transitions:
+  ubuntu:
+    pip:
+      packages: [transitions]
 wxpython:
   arch: [wxpython]
   centos: [wxPython-devel]
