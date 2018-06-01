@@ -3810,6 +3810,10 @@ python-tqdm:
         packages: [tqdm]
     yakkety: [python-tqdm]
     zesty: [python-tqdm]
+python-transitions-pip:
+  ubuntu:
+    pip:
+      packages: [transitions]
 python-trep:
   debian:
     pip:
@@ -4285,10 +4289,6 @@ tilestache:
   debian: [tilestache]
   fedora: [python-tilestache]
   ubuntu: [tilestache]
-transitions:
-  ubuntu:
-    pip:
-      packages: [transitions]
 wxpython:
   arch: [wxpython]
   centos: [wxPython-devel]
